@@ -1,0 +1,119 @@
+﻿生成启动时间为 2020/5/7 16:44:56。
+     1>项目“E:\work\project\RemoteControl_all\RemoteControl\src\RemoteControl\RemoteControl.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>QtVars:
+         Reading Qt configuration (E:\technology\Qt5.11.2\5.11.2\msvc2015\bin\qmake.exe)
+         WHERE /Q cl.exe
+         ("E:\technology\Qt5.11.2\5.11.2\msvc2015\bin\qmake.exe") 1> qtvars.log 2>&1
+     1>项目“E:\work\project\RemoteControl_all\RemoteControl\src\RemoteControl\RemoteControl.vcxproj”(1)正在节点 2 上生成“E:\work\project\RemoteControl_all\RemoteControl\src\RemoteControl\RemoteControl.vcxproj”(1:2) (Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>QtRccSetDependencies:
+         "E:\technology\Qt5.11.2\5.11.2\msvc2015\bin\rcc.exe" --list "RemoteControl.qrc" > "Release\rcc_list.txt" 2> nul
+       QtWork:
+         rcc RemoteControl.qrc
+         moc MainWindow.h
+         moc WifiItemWidget.h
+         moc WifiPasswdInput.h
+         moc ForgetPasswd.h
+         moc BatteryItem.h
+         moc WirelessCon.h
+         moc StackedWidget.h
+         moc CmdThread.h
+         moc LoadWin.h
+         moc NetConfig.h
+         moc MyMessageBox.h
+         moc LockScreen.h
+         moc MyPromptBox.h
+         moc UdpClient.h
+         moc InputRecInfo.h
+         moc BindHost.h
+         moc mpvplayer.h
+       ClCompile:
+         E:\technology\VS2015\VC\bin\CL.exe /c /IRelease\moc /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include /I..\..\include /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtQuickWidgets /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtQuick /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtWidgets /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtGui /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtANGLE /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtQml /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtNetwork /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtXml /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtCore /I\include /I"E:\technology\Qt5.11.2\5.11.2\msvc2015\mkspecs\win32-msvc" /IRelease\moc /nologo /W1 /WX- /MP /O2 /Oy- /D UNICODE /D _UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_QUICKWIDGETS_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_NETWORK_LIB /D QT_XML_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BatteryItem.cpp BindHost.cpp CmdThread.cpp Common.cpp ForgetPasswd.cpp HttpClient.cpp InputRecInfo.cpp LoadWin.cpp LockScreen.cpp main.cpp MyMessageBox.cpp mpvplayer.cpp MainWindow.cpp MyPromptBox.cpp StackedWidget.cpp UdpClient.cpp NetConfig.cpp WifiItemWidget.cpp WifiPasswdInput.cpp WirelessCon.cpp XmlHelper.cpp
+         BatteryItem.cpp
+         BindHost.cpp
+         CmdThread.cpp
+         Common.cpp
+         ForgetPasswd.cpp
+         HttpClient.cpp
+         InputRecInfo.cpp
+         LoadWin.cpp
+         LockScreen.cpp
+         main.cpp
+         MyMessageBox.cpp
+         mpvplayer.cpp
+         MainWindow.cpp
+         MyPromptBox.cpp
+         StackedWidget.cpp
+         UdpClient.cpp
+         NetConfig.cpp
+         WifiItemWidget.cpp
+         WifiPasswdInput.cpp
+         WirelessCon.cpp
+         XmlHelper.cpp
+         E:\technology\VS2015\VC\bin\CL.exe /c /IRelease\moc /IE:\work\project\RemoteControl_all\RemoteControl\src\RemoteControl\ /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include /I..\..\include /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtQuickWidgets /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtQuick /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtWidgets /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtGui /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtANGLE /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtQml /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtNetwork /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtXml /IE:\technology\Qt5.11.2\5.11.2\msvc2015\include\QtCore /I\include /I"E:\technology\Qt5.11.2\5.11.2\msvc2015\mkspecs\win32-msvc" /IRelease\moc /nologo /W1 /WX- /MP /O2 /Oy- /D UNICODE /D _UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_QUICKWIDGETS_LIB /D QT_QUICK_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_NETWORK_LIB /D QT_XML_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Release\\rcc\qrc_RemoteControl.cpp Release\\moc\moc_MainWindow.cpp Release\\moc\moc_WifiItemWidget.cpp Release\\moc\moc_WifiPasswdInput.cpp Release\\moc\moc_ForgetPasswd.cpp Release\\moc\moc_BatteryItem.cpp Release\\moc\moc_WirelessCon.cpp Release\\moc\moc_StackedWidget.cpp Release\\moc\moc_CmdThread.cpp Release\\moc\moc_LoadWin.cpp Release\\moc\moc_NetConfig.cpp Release\\moc\moc_MyMessageBox.cpp Release\\moc\moc_LockScreen.cpp Release\\moc\moc_MyPromptBox.cpp Release\\moc\moc_UdpClient.cpp Release\\moc\moc_InputRecInfo.cpp Release\\moc\moc_BindHost.cpp Release\\moc\moc_mpvplayer.cpp
+         qrc_RemoteControl.cpp
+         moc_MainWindow.cpp
+         moc_WifiItemWidget.cpp
+         moc_WifiPasswdInput.cpp
+         moc_ForgetPasswd.cpp
+         moc_BatteryItem.cpp
+         moc_WirelessCon.cpp
+         moc_StackedWidget.cpp
+         moc_CmdThread.cpp
+         moc_LoadWin.cpp
+         moc_NetConfig.cpp
+         moc_MyMessageBox.cpp
+         moc_LockScreen.cpp
+         moc_MyPromptBox.cpp
+         moc_UdpClient.cpp
+         moc_InputRecInfo.cpp
+         moc_BindHost.cpp
+         moc_mpvplayer.cpp
+       Link:
+         E:\technology\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Release\\RemoteControl.exe" /NOLOGO /LIBPATH:..\..\lib /LIBPATH:E:\technology\Qt5.11.2\5.11.2\msvc2015\lib /LIBPATH:C:\opensslx86\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.6.11-win32\lib" /LIBPATH:C:\Utils\postgresqlx86\pgsql\lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\qtmain.lib shell32.lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\Qt5QuickWidgets.lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\Qt5Quick.lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\Qt5Widgets.lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\Qt5Gui.lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\Qt5Qml.lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\Qt5Network.lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\Qt5Xml.lib E:\technology\Qt5.11.2\5.11.2\msvc2015\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\Release\RemoteControl.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Release\RemoteControl.lib" /MACHINE:X86 /SAFESEH Release\BatteryItem.obj
+         Release\BindHost.obj
+         Release\CmdThread.obj
+         Release\Common.obj
+         Release\ForgetPasswd.obj
+         Release\HttpClient.obj
+         Release\InputRecInfo.obj
+         Release\LoadWin.obj
+         Release\LockScreen.obj
+         Release\main.obj
+         Release\MyMessageBox.obj
+         Release\mpvplayer.obj
+         Release\MainWindow.obj
+         Release\MyPromptBox.obj
+         Release\StackedWidget.obj
+         Release\UdpClient.obj
+         Release\NetConfig.obj
+         Release\WifiItemWidget.obj
+         Release\WifiPasswdInput.obj
+         Release\WirelessCon.obj
+         Release\XmlHelper.obj
+         Release\qrc_RemoteControl.obj
+         Release\moc_MainWindow.obj
+         Release\moc_WifiItemWidget.obj
+         Release\moc_WifiPasswdInput.obj
+         Release\moc_ForgetPasswd.obj
+         Release\moc_BatteryItem.obj
+         Release\moc_WirelessCon.obj
+         Release\moc_StackedWidget.obj
+         Release\moc_CmdThread.obj
+         Release\moc_LoadWin.obj
+         Release\moc_NetConfig.obj
+         Release\moc_MyMessageBox.obj
+         Release\moc_LockScreen.obj
+         Release\moc_MyPromptBox.obj
+         Release\moc_UdpClient.obj
+         Release\moc_InputRecInfo.obj
+         Release\moc_BindHost.obj
+         Release\moc_mpvplayer.obj
+         RemoteControl.vcxproj -> E:\work\project\RemoteControl_all\RemoteControl\src\RemoteControl\..\..\bin\Release\RemoteControl.exe
+     1>已完成生成项目“E:\work\project\RemoteControl_all\RemoteControl\src\RemoteControl\RemoteControl.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“E:\work\project\RemoteControl_all\RemoteControl\src\RemoteControl\RemoteControl.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:15.86

@@ -1,0 +1,40 @@
+﻿#ifndef MPVWIDGET_H
+#define MPVWIDGET_H
+
+#include <QtWidgets/QOpenGLWidget>
+#include "mpv/client.h"
+#include "mpv/render_gl.h"
+#include "mpv/qthelper.hpp"
+
+class MpvWidget Q_DECL_FINAL: public QOpenGLWidget
+{
+    Q_OBJECT
+public:
+    MpvWidget(QWidget *parent = 0, Qt::WindowFlags f = 0);
+    ~MpvWidget();
+    void command(const QVariant& params); // 执行命令
+    void setProperty(const QString& name, const QVariant& value); // 设置mpv属性
+    QVariant getProperty(const QString& name) const; // 获得mpv属性
+    QSize sizeHint() const { return QSize(880, 670);} // 调整视频窗口大小
+
+Q_SIGNALS:
+    void durationChanged(int value);
+    void positionChanged(int value);
+
+protected:
+    void initializeGL() Q_DECL_OVERRIDE; // QOpenGLWidget虚函数：建立OpenGL的资源和状态
+    void paintGL() Q_DECL_OVERRIDE; // QOpenGLWidget虚函数：渲染OpenGL场景，需要更新Widget时就会调用
+
+private Q_SLOTS:
+    void on_mpv_events(); // mpv事件处理槽函数
+    void maybeUpdate(); // 使Qt调用mpv_opengl_cb_draw（）绘制新的/更新的视频帧
+
+private:
+    void handle_mpv_event(mpv_event *event); // 处理mpv事件
+    static void on_update(void *ctx); // 更新槽函数
+
+    mpv_handle *mpv; // mpv句柄对象
+    mpv_render_context *mpv_gl; // mpv渲染上下文
+};
+
+#endif // MPVWIDGET_H

@@ -1,0 +1,64 @@
+<RCC>
+    <qresource prefix="/ConfigPage">
+        <file>image/ConfigPage/ConfigPage_BtnClose_0.png</file>
+        <file>image/ConfigPage/ConfigPage_BtnClose_1.png</file>
+        <file>image/ConfigPage/ConfigPage_BtnReturn_0.png</file>
+        <file>image/ConfigPage/ConfigPage_BtnReturn_1.png</file>
+        <file>image/ConfigPage/ConfigPage_BtnSave_0.png</file>
+        <file>image/ConfigPage/ConfigPage_BtnSave_1.png</file>
+        <file>image/ConfigPage/ConfigPage_WidgetCfgPage.png</file>
+    </qresource>
+    <qresource prefix="/MainWindow">
+        <file>image/MainWindow/MainWidget_BtnLive_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnLive_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnLockScr_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnLockScr_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnLockVGA_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnLockVGA_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnOSD_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnOSD_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnPause_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnPause_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnRecord_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnRecord_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnReview_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnReview_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnSplitSet_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnSplitSet_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnSwitch_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnSwitch_1.png</file>
+        <file>image/MainWindow/MainWidget_BtnTrack_0.png</file>
+        <file>image/MainWindow/MainWidget_BtnTrack_1.png</file>
+        <file>image/MainWindow/MainWidget_LabBattery_0.png</file>
+        <file>image/MainWindow/MainWidget_LabBattery_1.png</file>
+        <file>image/MainWindow/MainWidget_LabBattery_2.png</file>
+        <file>image/MainWindow/MainWindow_BtnNetwork_0.png</file>
+        <file>image/MainWindow/MainWindow_BtnShutdown_0.png</file>
+        <file>image/MainWindow/MainWindow_BtnShutdown_1.png</file>
+        <file>image/MainWindow/MainWindow_BtnSysSet_0.png</file>
+        <file>image/MainWindow/MainWindow_BtnSysSet_1.png</file>
+        <file>image/MainWindow/MainWindow_WidgetBottom.png</file>
+        <file>image/MainWindow/MainWindow_WidgetTop.png</file>
+        <file>image/videoSwitch.gif</file>
+        <file>image/MainWindow/MainWidget_BatteryItem.png</file>
+        <file>image/MainWindow/MainWidget_BatCharging.png</file>
+        <file>image/MainWindow/MainWindow_BtnNetwork_1.png</file>
+        <file>image/MainWindow/MainWindow_BtnNetwork_2.png</file>
+    </qresource>
+    <qresource prefix="/Popup">
+        <file>image/Popup/MainWidget_LabInco.png</file>
+        <file>image/Popup/LockScreen_LabAccount.png</file>
+        <file>image/Popup/LockScreen_LabBackground.png</file>
+        <file>image/Popup/MyPromptBox_LabIcon_fail.png</file>
+        <file>image/Popup/MyPromptBox_LabIcon_prompt.png</file>
+        <file>image/Popup/MyPromptBox_LabIcon_success.png</file>
+    </qresource>
+    <qresource prefix="/Network">
+        <file>image/Network/WifiOptionFrame_LabCheck.png</file>
+        <file>image/Network/WifiOptionFrame_LabLock.png</file>
+        <file>image/Network/WifiOptionFrame_LabWifi.png</file>
+        <file>image/Network/ForgetPasswd_LabIcon.png</file>
+        <file>image/Network/WifiOptionFrame_checked.png</file>
+        <file>image/Network/WifiOptionFrame_unchecked.png</file>
+    </qresource>
+</RCC>
