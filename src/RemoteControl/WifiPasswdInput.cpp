@@ -74,12 +74,12 @@ WifiPasswdInput::WifiPasswdInput(QDialog *parent, const QString& strWifiName)
 		// 1. 创建wifi配置文件
 		XmlHelper::Get()->WriteXml(strWifiName, m_pEditPasswd->text());
 		// 2. 添加wifi配置文件
-		QString strReturn = Common::Get()->ExecuteCmd2(QString("netsh wlan add profile filename=%1/%2.xml")\
+		QString strReturn = Common::Get()->ExecuteCmd(QString("netsh wlan add profile filename=%1/%2.xml")\
 			.arg(QApplication::applicationDirPath()).arg(strWifiName));
 		if (strReturn.contains("已将配置文件"))
 		{
 			// 3. 连接wifi
-			Common::Get()->ExecuteCmd2(QString("netsh wlan connect name=%1").arg(strWifiName));
+			Common::Get()->ExecuteCmd(QString("netsh wlan connect name=%1").arg(strWifiName));
 
 			this->accept();
 			this->close();

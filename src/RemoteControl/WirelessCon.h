@@ -2,13 +2,12 @@
 #include <QPainter>
 #include <QListWidgetItem>
 #include <QList>
+#include <QScroller>
 #include "common.h"
 #include "NetConfig.h"
-#include "MyMessageBox.h"
 #include "WifiItemWidget.h"
 #include "WifiPasswdInput.h"
 #include "ForgetPasswd.h"
-#include "CmdThread.h"
 
 class WirelessCon : public QDialog
 {

@@ -60,7 +60,7 @@ ForgetPasswd::ForgetPasswd(QDialog *parent, const QString& strWifiName)
 
 	// Íü¼ÇÃÜÂë°´Å¥-µã»÷²Ûº¯Êý
 	QObject::connect(m_pBtnForget, &QPushButton::clicked, [=]() {
-		Common::Get()->ExecuteCmd2(QString("netsh wlan delete profile name=%1").arg(strWifiName));
+		Common::Get()->ExecuteCmd(QString("netsh wlan delete profile name=%1").arg(strWifiName));
 		this->accept();
 	});
 

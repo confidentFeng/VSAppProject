@@ -4,7 +4,6 @@
 #include "NetConfig.h"
 #include "WirelessCon.h"
 #include "MyPromptBox.h"
-#include "BindHost.h"
 
 class StackedWidget : public QDialog
 {
@@ -18,6 +17,5 @@ public:
 private:
 	WirelessCon *m_pWirelessCon; // 无线连接窗口
 	NetConfig *m_pNetConfigWifi; // 网络配置窗口-无线连接
-	//NetConfig *m_pNetConfigWired; // 网络配置窗口-有线连接
 	QStackedWidget *m_pStackedWidget; // 分页Widget
 };

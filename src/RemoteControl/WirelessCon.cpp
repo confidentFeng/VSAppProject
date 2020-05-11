@@ -25,9 +25,14 @@ WirelessCon::WirelessCon(QDialog *parent)
 	pListWidgetWifi->setVerticalScrollMode(QListWidget::ScrollPerPixel);
 	pListWidgetWifi->setFocusPolicy(Qt::NoFocus); // 设置为无焦点，让currentRow开始不默认为0
 	connect(pListWidgetWifi, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(clickedWifiItem(QListWidgetItem*)));
+	// 滚动条美化
+	//pListWidgetWifi->setStyleSheet("QScrollBar{width:40px;}");
+	QFile qssFile(QApplication::applicationDirPath() + "/image/myStyleSheet.qss");
+	qssFile.open(QFile::ReadOnly);
+	pListWidgetWifi->setStyleSheet(qssFile.readAll());
 
 	// 1. 查找出已连接wifi的名称
-	QString strCmdCon = Common::Get()->ExecuteCmd2("netsh wlan show interface");
+	QString strCmdCon = Common::Get()->ExecuteCmd("netsh wlan show interface");
 	QStringList strListCon = strCmdCon.split("\r\n");
 	QString strConWifiName = "null"; // 避免列表中有名称为""的wifi
 	if (strListCon.size() > 15) // 有连接wifi的话，输出行数会有24行，否则只有14行
@@ -38,7 +43,7 @@ WirelessCon::WirelessCon(QDialog *parent)
 
 	// 2. 提取出所有wifi的名称，并在已连接wifi一项"打勾"
 	int index = 0;
-	QString strCmdOut = Common::Get()->ExecuteCmd2("netsh wlan show networks");
+	QString strCmdOut = Common::Get()->ExecuteCmd("netsh wlan show networks");
 	QStringList strListOut = strCmdOut.split("\r\n");
 	for (int i = 0; i < strListOut.size(); i++)
 	{
@@ -104,8 +109,9 @@ WirelessCon::WirelessCon(QDialog *parent)
 
 	/* 主窗口-垂直布局 */
 	QVBoxLayout *pVLayoutMain = new QVBoxLayout(m_pWidgetChild);
-	pVLayoutMain->addSpacing(6);
+	pVLayoutMain->addSpacing(10);
 	pVLayoutMain->addLayout(pHLayoutTitle);
+	pVLayoutMain->addSpacing(10);
 	pVLayoutMain->addWidget(pListWidgetWifi);
 	pVLayoutMain->addStretch(1);
 	pVLayoutMain->addLayout(pHLayoutWired);
@@ -126,27 +132,18 @@ WirelessCon::WirelessCon(QDialog *parent)
 			//this->reject();
 			emit BtnNextWired();
 		}
-		else
-		{
-			MyMessageBox *pMyMessageBox = new MyMessageBox(this);
-			pMyMessageBox->setGeometry((WIN_WIDTH - 700) / 2 - 10, (WIN_HEIGHT - 516) / 2 - 40, 700, 516);
-			pMyMessageBox->ShowControl(false, false, "请插入网络连接");
-			pMyMessageBox->SetInfoText("      本机支持无线连接和有线连接，两种方式连接录播主\n\
-机，在机身背面接口插入网线即可。");
-			pMyMessageBox->exec();
-		}
 	});
 }
 
 WirelessCon::~WirelessCon()
 {
-
+	
 }
 
 // 检测网线是否接入
 bool WirelessCon::IsCableAccess()
 {
-	QString strCmdOut = Common::Get()->ExecuteCmd2("netsh interface ipv4 show ipaddress interface=以太网");
+	QString strCmdOut = Common::Get()->ExecuteCmd("netsh interface ipv4 show ipaddress interface=以太网");
 	// 注意，如果str是空字符串，list1会增加一个空字符串到列表里，其size=1
 	QStringList strCmdOutList = strCmdOut.split("\r\n"); 
 	for (int i = 0; i<strCmdOutList.size(); i++)
@@ -168,6 +165,7 @@ void WirelessCon::clickedWifiItem(QListWidgetItem* curItem)
 	if (index != m_conIndex)
 	{
 		WifiPasswdInput* pWifiPasswdInput = new WifiPasswdInput(this, m_strListWifi[index]);
+		pWifiPasswdInput->setGeometry((WIN_WIDTH - 700) / 2 - 10, (WIN_HEIGHT - 516) / 2 - 40, 700, 516);
 		int res = pWifiPasswdInput->exec();
 		if (res == QDialog::Accepted)
 		{
@@ -197,11 +195,12 @@ void WirelessCon::clickedWifiItem(QListWidgetItem* curItem)
 	{
 		// 当前项wifi已经连接
 		ForgetPasswd* pForgetPasswd = new ForgetPasswd(this, m_strListWifi[index]);
+		pForgetPasswd->setGeometry((WIN_WIDTH - 700) / 2 - 10, (WIN_HEIGHT - 516) / 2 - 40, 700, 516);
 		int res = pForgetPasswd->exec();
 		if (res == QDialog::Accepted)
 		{
 			// 在当前index处重新设置QListWidget项，并设置不选中
-			WifiItemWidget *pWifiOptionWidget = new WifiItemWidget;
+			WifiItemWidget *pWifiOptionWidget = new WifiItemWidget(this);
 			pListWidgetWifi->setItemWidget(curItem, pWifiOptionWidget);
 			pWifiOptionWidget->SetWifiName(m_strListWifi[index]);
 			pWifiOptionWidget->SetConStatus(false);

@@ -50,5 +50,5 @@ public:
 		static Common ct;
 		return &ct;
 	}
-	QString ExecuteCmd2(const QString& strCmd); // Ö´ĞĞcmdÃüÁî
+	QString ExecuteCmd(const QString& strCmd); // Ö´ĞĞcmdÃüÁî
 };

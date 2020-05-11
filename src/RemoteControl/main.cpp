@@ -3,16 +3,15 @@
 #include <QGuiApplication>
 #include <QtQml/QQmlApplicationEngine>
 #include <QFileInfo>
-#include "BindHost.h"
+#include <QStackedWidget>
+#include "StackedWidget.h"
 #include "NetConfig.h"
 #include "WirelessCon.h"
-#include <QStackedWidget>
 #include "WifiItemWidget.h"
 #include "WifiPasswdInput.h"
 #include "ForgetPasswd.h"
-#include "MainWindow.h"
 
-// 将字符串的编码修改为"utf-8"，便于显示中文以及允许http的Get方式传输中文
+// 将字符串的编码修改为"utf-8"，便于显示中文
 #pragma execution_character_set("utf-8")
 
 int main(int argc, char *argv[])
@@ -25,9 +24,10 @@ int main(int argc, char *argv[])
 	qssFile.open(QFile::ReadOnly);
 	qApp->setStyleSheet(qssFile.readAll());
 
-	// 显示主界面
-	MainWindow *m_pMainWindow = new MainWindow;
-	m_pMainWindow->show();
+	// 使用QStackedWidget切换界面显示
+	StackedWidget *pMainWidget = new StackedWidget;
+	pMainWidget->SetStackCurIndex(0);
+	int res = pMainWidget->exec();
 
 	return a.exec();
 }

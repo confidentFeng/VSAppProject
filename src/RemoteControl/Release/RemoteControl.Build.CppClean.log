@@ -1,88 +1,31 @@
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\cmdthread.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\loadwin.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\mymessagebox.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\stackedwidget.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\wirelesscon.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\common.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\forgetpasswd.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\main.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\netconfig.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\batteryitem.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\httpclient.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\lockscreen.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\mainwindow.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\wifipasswdinput.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\bindhost.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\inputrecinfo.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\mpvplayer.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\mypromptbox.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\udpclient.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\wifiitemwidget.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\xmlhelper.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\qrc_remotecontrol.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_forgetpasswd.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_wirelesscon.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_lockscreen.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_inputrecinfo.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_mainwindow.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_loadwin.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_mymessagebox.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_mypromptbox.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_bindhost.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_wifiitemwidget.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_batteryitem.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_cmdthread.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_netconfig.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_wifipasswdinput.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_stackedwidget.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_udpclient.obj
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc_mpvplayer.obj
-e:\work\project\remotecontrol_all\remotecontrol\bin\release\remotecontrol.exe
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_mainwindow.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_wifiitemwidget.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_wifipasswdinput.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_forgetpasswd.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_batteryitem.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_wirelesscon.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_stackedwidget.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_cmdthread.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_loadwin.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_netconfig.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_mymessagebox.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_lockscreen.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_mypromptbox.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_udpclient.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_inputrecinfo.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_bindhost.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\moc\moc_mpvplayer.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\\rcc\qrc_remotecontrol.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\rcc\qrc_remotecontrol.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_mainwindow.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_wifiitemwidget.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_wifipasswdinput.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_forgetpasswd.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_batteryitem.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_wirelesscon.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_stackedwidget.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_cmdthread.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_loadwin.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_netconfig.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_mymessagebox.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_lockscreen.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_mypromptbox.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_udpclient.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_inputrecinfo.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_bindhost.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\moc\moc_mpvplayer.cpp
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\..\..\bin\release\remotecontrol.exe
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\cl.command.1.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\cl.read.1.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\cl.write.1.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\link.command.1.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\link.read.1.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\link.write.1.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\moc.read.1u.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\moc.write.1u.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\rcc.read.1u.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\rcc.write.1u.tlog
-e:\work\project\remotecontrol_all\remotecontrol\src\remotecontrol\release\remotecontrol.tlog\remotecontrol.write.1u.tlog
+e:\c++ project\network\netcontrol\src\remotecontrol\release\mypromptbox.obj
+e:\c++ project\network\netcontrol\src\remotecontrol\release\netconfig.obj
+e:\c++ project\network\netcontrol\src\remotecontrol\release\forgetpasswd.obj
+e:\c++ project\network\netcontrol\src\remotecontrol\release\wifiitemwidget.obj
+e:\c++ project\network\netcontrol\src\remotecontrol\release\common.obj
+e:\c++ project\network\netcontrol\src\remotecontrol\release\xmlhelper.obj
+e:\c++ project\network\netcontrol\src\remotecontrol\release\wifipasswdinput.obj
+e:\c++ project\network\netcontrol\src\remotecontrol\release\\moc\moc_wifiitemwidget.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\\moc\moc_wifipasswdinput.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\\moc\moc_forgetpasswd.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\\moc\moc_wirelesscon.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\\moc\moc_stackedwidget.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\\moc\moc_netconfig.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\\moc\moc_mypromptbox.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\\rcc\qrc_remotecontrol.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\rcc\qrc_remotecontrol.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\moc\moc_wifiitemwidget.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\moc\moc_wifipasswdinput.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\moc\moc_forgetpasswd.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\moc\moc_wirelesscon.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\moc\moc_stackedwidget.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\moc\moc_netconfig.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\moc\moc_mypromptbox.cpp
+e:\c++ project\network\netcontrol\src\remotecontrol\release\remotecontrol.tlog\cl.command.1.tlog
+e:\c++ project\network\netcontrol\src\remotecontrol\release\remotecontrol.tlog\cl.read.1.tlog
+e:\c++ project\network\netcontrol\src\remotecontrol\release\remotecontrol.tlog\cl.write.1.tlog
+e:\c++ project\network\netcontrol\src\remotecontrol\release\remotecontrol.tlog\moc.read.1u.tlog
+e:\c++ project\network\netcontrol\src\remotecontrol\release\remotecontrol.tlog\moc.write.1u.tlog
+e:\c++ project\network\netcontrol\src\remotecontrol\release\remotecontrol.tlog\rcc.read.1u.tlog
+e:\c++ project\network\netcontrol\src\remotecontrol\release\remotecontrol.tlog\rcc.write.1u.tlog
+e:\c++ project\network\netcontrol\src\remotecontrol\release\remotecontrol.tlog\remotecontrol.write.1u.tlog

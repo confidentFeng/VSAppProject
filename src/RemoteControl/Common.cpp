@@ -11,7 +11,7 @@ Common::~Common()
 }
 
 // ÷¥––CMD√¸¡Ó
-QString Common::ExecuteCmd2(const QString& strCmd)
+QString Common::ExecuteCmd(const QString& strCmd)
 {
 	QProcess cmd;
 	cmd.start(strCmd);

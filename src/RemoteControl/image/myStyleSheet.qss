@@ -1,320 +1,3 @@
-/*************************** 主界面 ***************************/
-
-/*************************** 子界面 ***************************/
-QWidget#MainWindow_WidgetTop{
-background-image: url(:/MainWindow/image/MainWindow/MainWindow_WidgetTop.png)
-}
-QWidget#MainWindow_WidgetBottom{
-background-image: url(:/MainWindow/image/MainWindow/MainWindow_WidgetBottom.png)
-}
-
-/*************************** 顶栏 ***************************/
-QLabel#MainWindow_LabBattery{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_LabBattery_0.png)
-}
-QLabel#MainWindow_LabRecord,#MainWindow_LabTime,#MainWindow_LabIPText,#MainWindow_LabIP,#MainWindow_LabHardDiskText,#MainWindow_LabHardDisk{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #222222;
-}
-QPushButton#MainWindow_BtnSysSet{
-border-image: url(:/MainWindow/image/MainWindow/MainWindow_BtnSysSet_0.png)
-}
-QPushButton:pressed#MainWindow_BtnSysSet{
-border-image: url(:/MainWindow/image/MainWindow/MainWindow_BtnSysSet_1.png)
-}
-QPushButton#MainWindow_BtnShutdown{
-border-image: url(:/MainWindow/image/MainWindow/MainWindow_BtnShutdown_0.png)
-}
-QPushButton:pressed#MainWindow_BtnShutdown{
-border-image: url(:/MainWindow/image/MainWindow/MainWindow_BtnShutdown_1.png)
-}
-
-/*************************** 侧栏 ***************************/
-QPushButton#MainWindow_BtnReview{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnReview_0.png)
-}
-QPushButton:checked#MainWindow_BtnReview{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnReview_1.png)
-}
-QPushButton#MainWindow_BtnSplitSet{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnSplitSet_0.png)
-}
-QPushButton:checked#MainWindow_BtnSplitSet{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnSplitSet_1.png)
-}
-QPushButton#MainWindow_BtnOSD{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnOSD_0.png)
-}
-QPushButton:checked#MainWindow_BtnOSD{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnOSD_1.png)
-}
-
-/*************************** 底栏 ***************************/
-QPushButton#MainWindow_BtnRecord{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnRecord_0.png)
-}
-QLabel#MainWindow_LabRecord, #MainWindow_LabLive{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-}
-QPushButton#MainWindow_BtnPause{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnPause_0.png)
-}
-QPushButton#MainWindow_BtnLockVGA{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnLockVGA_0.png)
-}
-/*
-QPushButton:checked#MainWindow_BtnLockVGA{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnLockVGA_1.png)
-}*/
-QPushButton#MainWindow_BtnLive{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnLive_0.png)
-}
-/*
-QPushButton:checked#MainWindow_BtnLive{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnLive_1.png)
-}*/
-QPushButton#MainWindow_BtnSwitch{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnSwitch_0.png)
-}
-/*
-QPushButton:checked#MainWindow_BtnSwitch{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnSwitch_1.png)
-}*/
-QPushButton#MainWindow_BtnTrack{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnTrack_0.png)
-}
-/*
-QPushButton:checked#MainWindow_BtnTrack{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnTrack_1.png)
-}
-*/
-QPushButton#MainWindow_BtnLockScr{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnLockScr_0.png)
-}
-QPushButton:pressed#MainWindow_BtnLockScr{
-border-image: url(:/MainWindow/image/MainWindow/MainWidget_BtnLockScr_1.png)
-}
-
-
-/*************************** 配置界面 ***************************/
-
-/*************************** 配置页面 ***************************/
-QWidget#ConfigPage_WidgetCfgPage{
-background-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_WidgetCfgPage.png)
-}
-
-/*************************** 顶栏 ***************************/
-QLabel#ConfigPage_LabTitle{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-}
-QPushButton#ConfigPage_BtnClose{
-border-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_BtnClose_0.png)
-}
-QPushButton:pressed#ConfigPage_BtnClose{
-border-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_BtnClose_1.png)
-}
-
-/*************************** 中部窗口 ***************************/
-QLabel#ConfigPage_LabIP, #ConfigPage_LabPort, #ConfigPage_LabAccount, #ConfigPage_LabPasswd{
-font-family: "Microsoft YaHei";
-font-size: 18px;
-color: #222222;
-}
-QLineEdit#ConfigPage_EditIP, #ConfigPage_EditPort, #ConfigPage_EditAccount, #ConfigPage_EditPasswd{
-font-family:"Microsoft YaHei";
-font-size: 18px;
-color: #575757;
-border: 1px solid rgb(139, 184, 250);
-}
-
-/*************************** 底栏 ***************************/
-QPushButton#ConfigPage_BtnReturn{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #498ff8;
-border: 1px solid #0066ff;
-border-radius: 6px;
-}
-QPushButton:pressed#ConfigPage_BtnReturn{
-font-family:"Microsoft YaHei";
-font-size: 24px;
-color: #498ff8;
-background-color: #DEE4ED;
-border: 1px solid #0066ff;
-border-radius: 6px;
-}
-QPushButton#ConfigPage_BtnCfgSave{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-background-color: #498ff8;
-border-radius: 6px;
-}
-QPushButton:pressed#ConfigPage_BtnCfgSave{
-font-family:"Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-background-color: #0066ff;
-border-radius: 6px;
-}
-QPushButton#ConfigPage_BtnUse{
-font-family: "Microsoft YaHei";
-font-size: 18px;
-color: #4a78d8;
-border: none;
-}
-QPushButton:pressed#ConfigPage_BtnUse{
-font-family: "Microsoft YaHei";
-font-size: 18px;
-color: #A8CCF3;
-border: none;
-}
-
-
-/*************************** 填写录制信息界面 ***************************/
-QWidget#InputRecInfo_WidgetChild{
-background-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_WidgetCfgPage.png)
-}
-QLabel#InputRecInfo_LabTitle{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-}
-QPushButton#InputRecInfo_BtnClose{
-border-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_BtnClose_0.png)
-}
-QPushButton:pressed#InputRecInfo_BtnClose{
-border-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_BtnClose_1.png)
-}
-QLabel#InputRecInfo_LabPresenter, #InputRecInfo_LabSubject{
-font-family: "Microsoft YaHei";
-font-size: 18px;
-color: #222222;
-}
-QLineEdit#InputRecInfo_EditPresenter, #InputRecInfo_EditSubject{
-font-family:"Microsoft YaHei";
-font-size: 18px;
-color: #575757;
-border: 1px solid rgb(139, 184, 250);
-}
-QPushButton#InputRecInfo_BtnSave{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-background-color: #498ff8;
-border-radius: 6px;
-}
-QPushButton:pressed#InputRecInfo_BtnSave{
-font-family:"Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-background-color: #0066ff;
-border-radius: 6px;
-}
-QPushButton#InputRecInfo_BtnCancel{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #498ff8;
-border: 1px solid #0066ff;
-border-radius: 6px;
-}
-QPushButton:pressed#InputRecInfo_BtnCancel{
-font-family:"Microsoft YaHei";
-font-size: 24px;
-color: #498ff8;
-background-color: #DEE4ED;
-border: 1px solid #0066ff;
-border-radius: 6px;
-}
-QLabel#InputRecInfo_LabCountdown{
-font-family: "Microsoft YaHei";
-font-size: 16px;
-color: #498ff8;
-border: none;
-}
-
-
-/*************************** 消息框界面 ***************************/
-QWidget#MyMessageBox_WidgetChild{
-background-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_WidgetCfgPage.png)
-}
-QLabel#MyMessageBox_LabTitle{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-}
-QPushButton#MyMessageBox_BtnClose{
-border-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_BtnClose_0.png)
-}
-QPushButton:pressed#MyMessageBox_BtnClose{
-border-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_BtnClose_1.png)
-}
-QLabel#MyMessageBox_LabInco{
-font-family: "Microsoft YaHei";
-font-size: 30px;
-color: #222222;
-}
-QLabel#MyMessageBox_LabInfo{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #333333;
-}
-QPushButton#MyMessageBox_BtnOK{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-background-color: #498ff8;
-border-radius: 6px;
-}
-QPushButton:pressed#MyMessageBox_BtnOK{
-font-family:"Microsoft YaHei";
-font-size: 24px;
-color: #ffffff;
-background-color: #0066ff;
-border-radius: 6px;
-}
-QPushButton#MyMessageBox_BtnCancel{
-font-family: "Microsoft YaHei";
-font-size: 24px;
-color: #498ff8;
-border: 1px solid #0066ff;
-border-radius: 6px;
-}
-QPushButton:pressed#MyMessageBox_BtnCancel{
-font-family:"Microsoft YaHei";
-font-size: 24px;
-color: #498ff8;
-background-color: #DEE4ED;
-border: 1px solid #0066ff;
-border-radius: 6px;
-}
-
-
-/*************************** 锁屏界面 ***************************/
-QWidget#LockScreen_WidgetChild{
-background-image: url(:/Popup/image/Popup/LockScreen_LabBackground.png)
-}
-QLabel#LockScreen_LabHead{
-border-image: url(:/Popup/image/Popup/LockScreen_LabAccount.png)
-}
-QLabel#LockScreen_LabAccount{
-font-family: "Microsoft YaHei";
-font-size: 48px;
-color: #eeeeee;
-}
-QLineEdit#LockScreen_EditPasswd{
-font-family:"Microsoft YaHei";
-font-size: 24px;
-color: #000000;
-border: 2px solid rgb(255, 255, 255);
-}
-
-
 /*************************** 网络配置界面 ***************************/
 QWidget#NetConfig_WidgetChild{
 background-image: url(:/ConfigPage/image/ConfigPage/ConfigPage_WidgetCfgPage.png)
@@ -432,6 +115,69 @@ font-size: 24px;
 color: #ffffff;
 background-color: #0066ff;
 border-radius: 6px;
+}
+/*垂直滚动条整体*/
+QScrollBar:vertical
+{
+    width:16px;
+    background:rgb(222, 228,237, 0%);
+    margin:0px,0px,0px,0px;
+    padding-top:5px;   /*上预留位置*/
+    padding-bottom:5px;    /*下预留位置*/
+}
+/*滚动条中滑块的样式*/
+QScrollBar::handle:vertical
+{
+    width:8px;
+	background:rgb(122, 174, 253);
+    border-radius:4px;
+    min-height:20px;
+}
+/*鼠标触及滑块样式*/
+QScrollBar::handle:vertical:hover
+{
+    width:9px;
+    background:rgb(30, 144, 255);
+    border-radius:4px;
+    min-height:20;
+}
+/*设置上箭头*/
+QScrollBar::sub-line:vertical
+{
+    height:5px;
+    width:10px;
+    border-image:url(:/Network/image/Network/WirelessCon_Scrollbar_up.png);
+    subcontrol-position:top;
+}
+/*设置下箭头*/
+QScrollBar::add-line:vertical
+{
+    height:5px;
+    width:10px;
+    border-image:url(:/Network/image/Network/WirelessCon_Scrollbar_down.png);
+    subcontrol-position:bottom;
+}
+/*设置上箭头：悬浮状态*/
+QScrollBar::sub-line:vertical:hover
+{
+    height:5px;
+    width:10px;
+    border-image:url(:/Network/image/Network/WirelessCon_Scrollbar_up.png);
+    subcontrol-position:top;
+}
+/*设置下箭头:悬浮状态*/
+QScrollBar::add-line:vertical:hover
+{
+    height:5px;
+    width:10px;
+    border-image:url(:/Network/image/Network/WirelessCon_Scrollbar_down.png);
+    subcontrol-position:bottom;
+}
+/*当滚动条滚动的时候，上面的部分和下面的部分*/
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background:rgb(0,0,0,10%);
+    border-radius:4px;
 }
 
 /*************************** wifi选项Frame ***************************/

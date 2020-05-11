@@ -15,6 +15,7 @@
     <Keyword>QtVS_v302</Keyword>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+    <ProjectName>NetControl</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -83,34 +84,20 @@
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BatteryItem.cpp" />
-    <ClCompile Include="BindHost.cpp" />
-    <ClCompile Include="CmdThread.cpp" />
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="ForgetPasswd.cpp" />
-    <ClCompile Include="HttpClient.cpp" />
-    <ClCompile Include="InputRecInfo.cpp" />
-    <ClCompile Include="LoadWin.cpp" />
-    <ClCompile Include="LockScreen.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MyMessageBox.cpp" />
-    <ClCompile Include="mpvplayer.cpp" />
-    <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="MyPromptBox.cpp" />
     <ClCompile Include="StackedWidget.cpp" />
-    <ClCompile Include="UdpClient.cpp" />
     <ClCompile Include="NetConfig.cpp" />
     <ClCompile Include="WifiItemWidget.cpp" />
     <ClCompile Include="WifiPasswdInput.cpp" />
     <ClCompile Include="WirelessCon.cpp" />
     <ClCompile Include="XmlHelper.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="MainWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="RemoteControl.qrc" />
@@ -119,28 +106,15 @@
     <QtMoc Include="WifiItemWidget.h" />
     <QtMoc Include="WifiPasswdInput.h" />
     <QtMoc Include="ForgetPasswd.h" />
-    <QtMoc Include="BatteryItem.h" />
     <QtMoc Include="WirelessCon.h" />
     <QtMoc Include="StackedWidget.h" />
-    <QtMoc Include="CmdThread.h" />
     <ClInclude Include="XmlHelper.h" />
-    <QtMoc Include="LoadWin.h" />
     <QtMoc Include="NetConfig.h" />
-    <QtMoc Include="MyMessageBox.h" />
-    <QtMoc Include="LockScreen.h" />
     <QtMoc Include="MyPromptBox.h" />
-    <QtMoc Include="UdpClient.h" />
-    <QtMoc Include="InputRecInfo.h" />
-    <QtMoc Include="BindHost.h" />
     <ClInclude Include="common.h" />
-    <ClInclude Include="HttpClient.h" />
-    <QtMoc Include="mpvplayer.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\bin\Release\image\myStyleSheet.qss" />
-    <None Include="QML\Button.qml" />
-    <None Include="QML\LineInput.qml" />
-    <None Include="QML\login.qml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

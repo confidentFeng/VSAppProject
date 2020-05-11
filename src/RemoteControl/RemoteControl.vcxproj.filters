@@ -28,37 +28,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HttpClient.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="mpvplayer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MainWindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="InputRecInfo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MyMessageBox.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LockScreen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MyPromptBox.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NetConfig.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="UdpClient.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BindHost.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LoadWin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="XmlHelper.cpp">
@@ -76,48 +49,18 @@
     <ClCompile Include="ForgetPasswd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BatteryItem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="WirelessCon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StackedWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CmdThread.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="mpvplayer.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="MainWindow.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="InputRecInfo.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="MyMessageBox.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="LockScreen.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="MyPromptBox.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="NetConfig.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="UdpClient.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="BindHost.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="LoadWin.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="WifiItemWidget.h">
@@ -129,16 +72,10 @@
     <QtMoc Include="ForgetPasswd.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="BatteryItem.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="WirelessCon.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StackedWidget.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="CmdThread.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
@@ -148,9 +85,6 @@
     </QtRcc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HttpClient.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="XmlHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -159,9 +93,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="QML\Button.qml" />
-    <None Include="QML\LineInput.qml" />
-    <None Include="QML\login.qml" />
     <None Include="..\..\bin\Release\image\myStyleSheet.qss" />
   </ItemGroup>
 </Project>
